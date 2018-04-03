@@ -6,8 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="纯文字的悬乎"
+           android:onClick="doTextFloat"/>
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="文字加图的悬乎"
+           android:onClick="doFloat"/>
+   </LinearLayout>
 </android.support.constraint.ConstraintLayout>

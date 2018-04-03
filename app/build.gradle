@@ -28,4 +28,9 @@ dependencies {
     //RecyclerView：打造悬浮效果
     implementation 'com.android.support:recyclerview-v7:27.1.0'
     implementation 'com.android.support:design:27.1.0'
+
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+    //第三种方式是
 }
