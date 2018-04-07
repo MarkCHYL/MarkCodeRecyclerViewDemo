@@ -51,7 +51,6 @@ public class StickyRecyclerViewActivity extends AppCompatActivity {
     private void initView() {
         //模拟数据
         dataList.addAll(CityUtil.getCityList());
-        dataList.addAll(CityUtil.getCityList());
 
         //------------- StickyDecoration 使用部分  ----------------
         StickyDecoration decoration = StickyDecoration.Builder

@@ -49,7 +49,6 @@ public class PowerfulStickyRecyclerViewActivity extends AppCompatActivity {
     private void initView() {
         //模拟数据  啦啦啦啦
         dataList.addAll(CityUtil.getCityList());
-        dataList.addAll(CityUtil.getCityList());
 
         //------------- PowerfulStickyDecoration 使用部分  ----------------
         PowerGroupListener listener = new PowerGroupListener() {

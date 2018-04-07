@@ -46,7 +46,6 @@ public class BeautifulRecyclerViewActivity extends AppCompatActivity {
     private void initView() {
         //模拟数据
         dataList.addAll(CityUtil.getCityList());
-        dataList.addAll(CityUtil.getCityList());
 
         LinearLayoutManager manager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         mRv.setLayoutManager(manager);
