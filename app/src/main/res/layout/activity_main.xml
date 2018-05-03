@@ -21,5 +21,11 @@
            android:layout_height="wrap_content"
            android:text="文字加图的悬乎"
            android:onClick="doFloat"/>
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="瀑布流"
+           android:onClick="doStaggered"/>
    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

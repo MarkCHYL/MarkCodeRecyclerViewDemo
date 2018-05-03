@@ -20,9 +20,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Created by gavin
- * Created date 17/6/5
- * Created log
+ *
  */
 
 public class SimpleAdapter extends RecyclerView.Adapter {

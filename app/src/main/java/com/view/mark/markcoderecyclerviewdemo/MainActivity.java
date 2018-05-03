@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.view.mark.markcoderecyclerviewdemo.ui.FirstActivity;
 import com.view.mark.markcoderecyclerviewdemo.ui.SecondActivity;
+import com.view.mark.markcoderecyclerviewdemo.ui.StaggeredGridViewLayoutActivity;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
@@ -25,5 +26,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void doFloat(View view){
         startActivity(new Intent(this,SecondActivity.class));
+    }
+
+    public void doStaggered(View view){
+        startActivity(new Intent(this,StaggeredGridViewLayoutActivity.class));
     }
 }
